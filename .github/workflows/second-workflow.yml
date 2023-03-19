@@ -10,3 +10,13 @@ jobs:
         run: echo "GoodBye"
       - name: Print Success
         run: echo "Success"
+        
+  second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greeting 2
+        run: echo "Hello World Twice"
+      - name: Print GoodBye 2
+        run: echo "GoodBye Twice"
+      - name: Print Success 2
+        run: echo "Success Twice"
